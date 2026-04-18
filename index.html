@@ -3,24 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Sushi & Wine Ordering</title>
+    <title>Sushi Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to the Sushi & Wine Ordering Site</h1>
         <nav>
-            <a href="catalog.html">Product Catalog</a>
-            <a href="shopping-cart.html">Shopping Cart</a>
-            <a href="checkout.html">Checkout</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
+        <section class="hero">
+            <h1>Welcome to Our Sushi Site</h1>
+            <p>Fresh and delicious sushi delivered to your door.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </section>
     </header>
     <main>
-        <h2>Featured Products</h2>
-        <p>Enjoy our selection of the finest sushi and wine!</p>
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="sushi1.jpg" alt="Sushi 1">
+                    <h3>Sushi Roll 1</h3>
+                    <p>$10.00</p>
+                </div>
+                <div class="product">
+                    <img src="sushi2.jpg" alt="Sushi 2">
+                    <h3>Sushi Roll 2</h3>
+                    <p>$12.00</p>
+                </div>
+                <div class="product">
+                    <img src="sushi3.jpg" alt="Sushi 3">
+                    <h3>Sushi Roll 3</h3>
+                    <p>$15.00</p>
+                </div>
+                <div class="product">
+                    <img src="sushi4.jpg" alt="Sushi 4">
+                    <h3>Sushi Roll 4</h3>
+                    <p>$11.00</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2026 Sushi & Wine Ordering</p>
+        <p>&copy; 2026 Sushi Site. All rights reserved.</p>
     </footer>
 </body>
 </html>
